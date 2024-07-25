@@ -1,1 +1,1 @@
-# Discilplina Web Apps and Mobile
+# Disciplina Web Apps and Mobile
