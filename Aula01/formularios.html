@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+</head>
+<body>
+    <form method="" action="">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui!" size="50" maxlength="50" required>
+        
+        <br>
+
+        <label for="senha">Senha: </label>
+        <input type="password" name="senha" id="senha" placeholder="Digite sua senha aqui!" size="50" maxlength="20" required>
+
+        <fieldset style="width: 500px; border-color:blue; margin-top: 20px;">
+            <label for="linguagem" name="linguagem" id="linguagem">Linguagem de interesse: </label><br>
+            <input type="checkbox" name="linguagem" id="linguagem" value="C++" checked>C++<br>
+            <input type="checkbox" name="linguagem" id="linguagem" value="C#">C#<br>
+            <input type="checkbox" name="linguagem" id="linguagem" value="Java">Java<br>
+            <input type="checkbox" name="linguagem" id="linguagem" value="JavaScript">JavaScript<br>
+            <input type="checkbox" name="linguagem" id="linguagem" value="Python">Python<br>
+        </fieldset>
+
+        <fieldset style="width: 500px; border-color:blue; margin-top: 20px;">
+            <label for="linguagem" name="linguagem" id="linguagem">Linguagem de interesse: </label><br>
+            <input type="radio" name="linguagem" id="linguagem" value="C++">C++<br>
+            <input type="radio" name="linguagem" id="linguagem" value="C#">C#<br>
+            <input type="radio" name="linguagem" id="linguagem" value="Java" checked>Java<br>
+            <input type="radio" name="linguagem" id="linguagem" value="JavaScript">JavaScript<br>
+            <input type="radio" name="linguagem" id="linguagem" value="Python">Python<br>
+        </fieldset>
+
+        <fieldset style="width: 500px; border-color:blue; margin-top: 20px;">
+            <label for="linguagem" name="linguagem" id="linguagem">Linguagem de interesse: </label><br>
+            <select name="escola">
+                <option value="C++">C++</option><br>
+                <option value="C#">C#</option><br>
+                <option value="Java">Java</option><br>
+                <option value="JavaScript">JavaScript</option><br>
+                <option value="Python">Python</option><br>
+                
+            </select>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
