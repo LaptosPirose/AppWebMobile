@@ -1,21 +1,32 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 .container{
     background-color: aquamarine;
-    width: 80%;
+    width: 60%;
     height: 800px;
     margin: auto;
 }
 
 .menu{
-    background-color: darkblue;
+    background-color: tomato;
     color: white;
-    padding: 10px;
     text-align: right;
+    font-size: 0;
+    list-style-type: none;
 }
 
 .menu>li{
-    list-style-type: none;
-    display: inline;
-    margin-right: 10px;
+    display: inline-block;
+    font-size: 18px;
+    background: greenyellow;
+    padding: 0px 40px;
+}
+
+.menu>li:hover{
+    background: green;
 }
 
 .menu>li>a{
@@ -25,14 +36,28 @@
 
 .esquerda{
     background-color: blue;
-    width: 10%;
-    height: 600px;
+    /* width: 10%; */
+    width: 200px;
+    height: 770px;
     float: left;
+    text-wrap: wrap;
+    font-size: 10px;
 }
 
 .direita{
     background-color: green;
-    width: 90%;
-    height: 600px;
+    /* width: 10%; */
+    width: 200px;
+    height: 770px;
     float: right;
+    text-wrap: wrap;
+    font-size: 10px;
+}
+.lista{
+    list-style-type: none;
+    padding: 0;
+    padding-left: 120px;
+}
+h2{
+    padding: 10px;
 }
