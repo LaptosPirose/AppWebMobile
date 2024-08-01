@@ -1,0 +1,35 @@
+.lista li{
+    color:blue;
+}
+
+.lista > li{
+    color: red;
+}
+
+.um + li{
+    color: aqua;
+}
+
+.dois ~ li{
+    color: yellow;
+}
+
+.lista>li:first-child{
+    color: blueviolet;
+}
+
+.lista>li:last-child{
+    color: green;
+}
+
+.lista>li:nth-child(3){
+    color: crimson;
+}
+
+.lista > li{
+    /* display: inline; */
+}
+
+.lista{
+    list-style-type: none;
+}

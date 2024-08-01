@@ -1,0 +1,38 @@
+.container{
+    background-color: aquamarine;
+    width: 80%;
+    height: 800px;
+    margin: auto;
+}
+
+.menu{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.menu>li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.menu>li>a{
+    color: white;
+    text-decoration: none;
+}
+
+.esquerda{
+    background-color: blue;
+    width: 10%;
+    height: 600px;
+    float: left;
+}
+
+.direita{
+    background-color: green;
+    width: 90%;
+    height: 600px;
+    float: right;
+}

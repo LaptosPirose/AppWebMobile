@@ -1,0 +1,17 @@
+div{
+    width: 80%;
+    background-color: brown;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    background-color: brown;
+}
+ul, li{
+    background-color: brown;
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    padding: 0%;
+}
