@@ -1,0 +1,53 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    background: black;
+}
+
+.menu, .submenu, .submenu2{
+    list-style-type: none;
+    font-size: 0;
+    width: 250px;
+}
+
+.menu > li > a,  .submenu > li > a, .submenu2 > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+
+.menu > li:hover,  .submenu > li:hover, .submenu2 > li:hover{
+    background-color: blueviolet;
+}
+
+.menu > li:hover a,  .submenu > li:hover a, .submenu2 > li:hover a{
+   color: white;
+}
+
+.menu{
+    position: relative;
+}
+
+.menu > li:hover >.submenu{
+    display: block;
+}
+
+.menu > li:hover >.submenu2{
+    display: block;
+}
+
+.submenu, .submenu2{
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+.home > .submenu{
+    display: none;
+    color: black;
+}
+
+.home2 > .submenu2{
+    display: none;
+    color: black;
+}
