@@ -1,0 +1,53 @@
+body{
+    background-color: blanchedalmond;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.static{
+    background-color: lightblue;
+    position: static;
+    height: 200px;
+    width: 50%;
+    top: 100px;
+    left: 50px;
+}
+
+.relative{
+    background-color: green;
+    position: relative;
+    height: 200px;
+    width: 50%;
+    top: 100px;
+    left: 50px;
+}
+
+.fixed{
+    background-color: red;
+    opacity: 0.9;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+    left:0;
+    z-index: 1;
+}
+
+.absolute{
+    background-color: blueviolet;
+    position: absolute;
+    height: 200px;
+    width: 10%;
+    top: 10px;
+    left:10px;
+}
+
+.sticky{
+    background-color: rgb(116, 226, 43);
+    position: sticky;
+    height: 200px;
+    width: 50%;
+    top: 50px;
+    bottom:50px;
+}
+
