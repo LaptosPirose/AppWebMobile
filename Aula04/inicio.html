@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="#">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        
+        <fieldset style="background-color: lightblue; width:400px; margin-top:10px">
+            <label for="checkbox">Checkbox:</label>
+            <br>
+            <input type="checkbox" name="checkbox" id="language" value="C++" checked>C++<br>
+            <input type="checkbox" name="checkbox" id="language" value="C#">C#<br>
+        </fieldset>
+        <fieldset style="background-color: lightgreen; width:400px; margin-top:10px;">
+            <label for="radiobutton">Radiobutton:</label>
+            <br>
+            <input type="radio" name="radiobutton" id="language" value="C++" checked>C++<br>
+            <input type="radio" name="radiobutton" id="language" value="C#">C#<br>
+        </fieldset>
+        <fieldset style="background-color: lightgrey; width:400px; margin-top:10px;">
+            <label for="select">Select:</label>
+            <br>
+            <select id="select" name="select" id="language">
+                <option id="select" value="C++">C++</option>
+                <option id="select" value="C#">C#</option>
+                <option id="select" value="Java">Java</option>
+            </select>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
