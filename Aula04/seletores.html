@@ -5,34 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista</title>
     <style>
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-    }
+        /* Common elements */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Hierarchical selection */
+        /* Only one next in the same level*/
+        ul + p{
+            color: red;
+        }
+        /* All after in the same level */
+        p ~ ul {
+            color: green;
+        }
+        /* Pseudo class - Determines a state of an element*/
+        ul>li:first-child{
+            text-decoration: line-through;
+        }
+        ul>li:nth-child(odd){
+            background-color: lightgray;
+        }
+        /* Pseudo elemnt - Determines a specific element*/
+        ul>li::first-letter{
+            color: crimson;
+            font-size: 45px;
+        }
 
-    ul + p{
-        color: red;
-    }
 
-    p ~ ul {
-        color: green;
-    }
-
-    ul>li:first-child{
-        text-decoration: line-through;
-    }
-
-    ul>li::first-letter{
-        color: crimson;
-        font-size: 45px;
-    }
-
-    ul>li:nth-child(odd){
-        background-color: lightgray;
-    }
-
-    
 
     </style>
 </head>
