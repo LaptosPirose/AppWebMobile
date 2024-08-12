@@ -106,3 +106,10 @@ section{
     text-align: center;
     margin: 10px 0;
 }
+.img-site{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 0;
+}
