@@ -1,3 +1,4 @@
+//Função para criar a animação de deslocamento da página ao clicar sobre um link
 document.addEventListener("DOMContentLoaded", function() {
     const navbarLinks = document.querySelectorAll('.navbar-nav a');
 

@@ -1,3 +1,4 @@
+/* Formatação geral da página */
 *{
     margin: 0;
     padding: none;
@@ -15,6 +16,7 @@ header > h1 {
     position: fixed;
     top: 0;
 }
+/* Formata a barra de navegação da página */
 .navbar{
     margin: 30px auto;
     width: 400px;
@@ -42,6 +44,7 @@ header > h1 {
     float: left;
     margin: 10px 20px 10px 0;
 }
+/* Separa página em paineis à esquerda e direita */
 .esquerda{
     float: left;
     width: 18%;
@@ -64,6 +67,7 @@ header > h1 {
 #obras{
     clear: both;
 }
+/* Formata tabela de painel de Obras */
 table{
     margin: 20px auto;
     width: 100%;
@@ -82,6 +86,7 @@ td{
 td > img{
     width: 20%;
 }
+/* Formata rodapé */
 footer{
     background-color:darkslategray;
     color: white;
